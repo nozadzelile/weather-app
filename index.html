@@ -12,15 +12,16 @@
 <body>
     <div class="weather-box">
     <header>
-        <form class="search-form">
-            <input type="search" class="search-form-input" placeholder="Enter a city..."  required />
+        <form class="search-form" id="search-form">
+            <input type="search" class="search-form-input"  
+            id="search-form-input" placeholder="Enter a city..."  required />
             <input type="submit" class="search-form-button" value="Search" />
         </form>
     </header>
     <main>
         <div class="app-data">
             <div>
-            <h1 class="app-city">Barcelona</h1>
+            <h1 class="app-city" id="city">Barcelona</h1>
             <p class="weather-details">
             Friday 18:41, overcast clouds <br />
             Humidity: <strong style="color: blue;">92%</strong>, Wind: <strong style="color: blue;">4.63km/h</strong>
