@@ -4,16 +4,16 @@ body {
 
 header {
     border-bottom: 1px solid rgb(227, 224, 224);
-    padding: 0 0 30px 0;
+    padding: 0 0 20px 0;
 }
 
 .weather-box {
     background-color: white;
-    max-width: 600px;
-    margin: 30px auto;
-    padding: 20px;
+    max-width: 580px;
+    margin: 40px auto;
+    padding: 30px;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
-    border-radius: 8px;
+    border-radius: 10px;
     font-family: "Raleway", sans-serif;
 }
 
@@ -25,6 +25,7 @@ header {
     width: 80%;
 }
 
+
 .search-form-button {
     background-color: rgb(144, 75, 75);
     color: white;
@@ -35,9 +36,54 @@ header {
     margin-left: 3px;
 }
 
+main {
+    padding: 30px 0;
+}
+
+.app-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-city {
+    font-size: 40px;
+    margin: 0;
+    line-height: 48px;
+
+}
+
+.app-temp-container {
+    display: flex;
+}
+
+.weather-icon {
+    font-size: 44px;
+    margin-top: 22px;
+}
+
+.app-temp {
+    font-size: 88px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.weather-details {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    opacity: 70%;
+}
+
+.app-unit {
+    margin-top: 16px;
+    font-size: 28px;
+}
+
+
 footer {
     border-top: 1px solid rgba(65, 50, 100, 0.08);
     padding: 30px 0 0 0;
     text-align: center;
-    font-size: 15px;
+    font-size: 14px;
+    margin: 4px;
 }
