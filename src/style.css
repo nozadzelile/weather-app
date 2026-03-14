@@ -69,7 +69,7 @@ main {
     font-weight: bold;
 }
 
-.weather-details {
+.app-details {
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
@@ -79,6 +79,7 @@ main {
 .app-unit {
     margin-top: 16px;
     font-size: 28px;
+    margin-right: 25px;
 }
 
 
