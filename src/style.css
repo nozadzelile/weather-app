@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(245, 238, 228);
+    background: linear-gradient(109.6deg, rgb(204, 228, 247) 11.2%, rgb(237, 246, 250) 100.2%);
 }
 
 header {
@@ -14,32 +14,32 @@ header {
     padding: 30px;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
     border-radius: 10px;
-    font-family: "Raleway", sans-serif;
+    font-family: "Barlow", sans-serif;
 }
 
 .search-form-input {
-    background-color: rgb(245, 238, 228);
+    background: linear-gradient(109.6deg, rgb(204, 228, 247) 11.2%, rgb(237, 246, 250) 100.2%);
     border-radius: 4px;
-    font-size: 15px;
-    padding: 10px 20px;
+    font-size: 17px;
+    padding: 20px 20px;
     width: 80%;
     border: none;
 }
 
 
 .search-form-button {
-    background-color: rgb(144, 75, 75);
+    background-color: rgb(56, 90, 140);
     color: white;
-    padding: 10px 20px;
+    padding: 20px 20px;
     border-radius: 4px;
-    font-size: 15px;
-    margin: 20px;
+    font-size: 17px;
+    margin: 10px;
     margin-left: 3px;
     border: none;
 }
 
 main {
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
 .app-data {
@@ -59,12 +59,13 @@ main {
 .weather-icon {
     height: 70px;
     width: 70px;
-    margin-top: 25px;
+    margin-top: 45px;
 }
 
 .app-temp {
-    font-size:90px;
+    font-size: 90px;
     font-weight: bold;
+    margin-top: 30px;
 }
 
 .app-details {
@@ -75,7 +76,7 @@ main {
 }
 
 .app-unit {
-    margin-top: 16px;
+    margin-top: 40px;
     font-size: 28px;
     margin-right: 25px;
 }
@@ -83,7 +84,8 @@ main {
 .weather-forecast {
     display: flex;
     justify-content: space-around;
-    margin-top: 30px;
+    margin-top: 20px;
+    width: 100%;
 }
 
 .forecast-date {
@@ -109,6 +111,7 @@ main {
 .forecast-temperature {
     padding: 0 5px;
 }
+
 
 footer {
     border-top: 1px solid rgba(65, 50, 100, 0.08);
